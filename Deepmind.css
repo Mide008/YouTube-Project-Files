@@ -255,6 +255,8 @@ h3{
     justify-content: start;
     align-items: stretch;
     column-gap: 2.5rem;
+    flex-wrap: wrap;
+    row-gap: 1rem;
 }
 
 .cardss{
@@ -267,6 +269,8 @@ h3{
     border: 0.1rem solid #dfe0e1;
     border-radius: 0.5rem;
     cursor: pointer;
+    flex-wrap: wrap;
+    row-gap: 1rem;
 }
 
 .topcardimage1{
@@ -409,7 +413,7 @@ h3{
 } */
 
 .getinthere{
-    width: 40%;
+    width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -1326,3 +1330,633 @@ input{
     color: #757778;
     cursor: pointer;
 }
+
+
+@media screen and (max-width: 1120px) {
+    
+
+    /* .leftlinksnav{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: white;
+        cursor: pointer;
+    } */
+    
+    .centertitle{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        text-align: center;
+        color: white;
+        z-index: 5;
+    }
+
+    .herofullsection{
+        gap: 0.5rem;
+    }
+
+    .googledeepmindlogo{
+        height: 15px;
+    }
+
+    .leftlinks{
+        display: flex;
+        column-gap: 0.3rem;
+    }
+
+    .leftlinksnav p{
+        font-size: 0.5rem;
+    }
+
+    .leftlinksnav img{
+        width: 15px;
+    }
+
+    .centertitle{
+        width: 100%;
+        left: 25%;
+    }
+
+    .veobig h2{
+        font-size: 3rem;
+    }
+
+    .caption h5{
+        font-size: 1rem;
+    }
+
+    .bothveo button{
+        padding: 6px 12px;
+        font-size: 0.5rem;
+        font-weight: 500;
+    }
+    
+    .second-latestnews-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        row-gap: 4rem;
+        padding: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .headonelatest{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        row-gap: 1.5rem;
+        order: 1;
+    }
+
+    .latesttop {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .discoverour {
+        width: 100%;
+        order: 2;
+    }
+
+    .headonelatest {
+        order: 1;
+    }
+
+    .discoverour p{
+        width: 100%;
+        height: auto;
+        color: #757778;
+        font-size: 1.2rem;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    .latestcardsdown{
+        row-gap: 3rem;
+    }
+
+    .cardss{
+        width: 45%;
+        row-gap: 0.5rem;
+    }
+
+    .third-podcast-container{
+        padding: 0rem 2rem 0rem 2rem;
+    
+    }
+
+    .imagepodcast{
+        width: 100%;
+        height: 30rem;
+    }
+
+    .getinthere{
+        width: 100%;
+    }
+    
+    
+    
+    .fourth-technologies-container {
+        padding: 4rem 1.5rem;
+    }
+
+    .techside h3{
+        font-size: 2.5rem;
+    }
+
+    .fifth-projectastra-container{
+        padding: 0rem 2rem 0rem 2rem;
+    
+    }
+
+    .imagepodcast2{
+        height: 30rem;
+    }
+
+    .toppodcasts h2{
+        font-size: 1.5rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .sixth-twocards-container{
+        width: 100%;
+        height: auto;
+        padding: 5rem 2rem 3rem 2rem;
+    }
+
+    .toppcardd{
+        width: 100%;
+        height: 150px;
+    
+    }
+
+
+    .toppcardd2{
+        width: 100%;
+        height: 250px;
+    
+    }
+
+
+    .downncardd{
+        width: 100%;
+        height: 60px;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        row-gap: 1rem;
+        padding: 1.5rem 0.2rem 1rem 1.5rem;
+        flex-grow: 1;
+    }
+
+    .seventh-threecontainers-container{
+        padding: 3rem 2rem 3rem 2rem;
+        flex-wrap: wrap;
+    }
+
+    .allthreecards{
+        
+        justify-content: start;
+        align-items: stretch;
+        column-gap: 3rem;
+        flex-wrap: wrap;
+        row-gap: 2rem;
+    }
+
+    .cardssst{
+        width: 45%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: stretch;
+        border: 0.1rem solid #dfe0e1;
+        border-radius: 0.5rem;
+        position: relative;
+        padding-bottom: 2rem;
+        cursor: pointer;
+    
+    }
+
+    .eight-responsibility-container{
+        padding: 2rem 2rem 2rem 2rem;
+    }
+
+    .responsibility h3{
+        font-size: 3rem;
+    }
+
+    .wewant p{
+        font-size: 1.5rem;
+    }
+
+    .tenth-explore-container{
+        width: 100%;
+        height: auto;
+        padding: 2rem 2rem 5rem 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        row-gap: 2rem;
+    }
+
+    .leftexplore{
+        width: 90%;
+        height: auto;
+    }
+
+    .rightexplore{
+        width: 100%;
+        height: auto;
+    }
+
+    .allsocials{
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding: 2rem 2rem;
+        row-gap: 1.5rem;
+    }
+
+    .allfooter{
+        padding: 0 2rem 0 2rem;
+    
+    }
+
+    .footerborder{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        row-gap: 2rem;
+        padding: 2rem 0 2rem 0;
+        border-top: 0.1rem solid #dfe0e1;
+        border-bottom: 0.1rem solid #dfe0e1;
+    }
+
+    input{
+        width: 32rem;
+    }
+
+    .lastcontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        row-gap: 1rem;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+
+
+
+  
+    .techside p{
+        width: 80%;
+        font-size: 1.5rem;
+    }
+
+    .imagepodcast2 {
+        min-height: 28rem;
+    }
+
+    .getinthere2 {
+        width: 85%;
+        max-width: 700px;
+    }
+
+    .toppodcasts h2 {
+        font-size: 3.5rem;
+    }
+
+    .toppodcasts p {
+        font-size: 1.13rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .fourth-technologies-container {
+        padding: 3rem 1rem;
+    }
+
+    .imagepodcast2 {
+        min-height: 25rem;
+    }
+
+    .toppodcasts h2 {
+        font-size: 2.5rem;
+    }
+
+    .toppodcasts p {
+        font-size: 0.9rem;
+    }
+
+    .getinthere2 {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+
+        .centertitle{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        text-align: center;
+        color: white;
+        z-index: 5;
+    }
+
+    .leftlinks{
+        visibility: hidden;
+    }
+    
+    .second-latestnews-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        row-gap: 2rem;
+        padding: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .headonelatest{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        row-gap: 1rem;
+        order: 1;
+    }
+
+    .latesttop {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .discoverour {
+        width: 100%;
+        order: 2;
+    }
+
+    .headonelatest {
+        order: 1;
+    }
+
+    h3{
+        font-weight: 400;
+        font-size: 3.5rem;
+    }
+
+    .textfollows{
+        font-weight: 400;
+        font-size: 1rem;
+    }
+
+    .viewall a{
+        font-weight: 500;
+        font-size: medium;
+    }
+
+    .discoverour p{
+        font-size: 0.6rem;
+        font-weight: 400;
+    }
+
+    .latestcardsdown{
+        row-gap: 3rem;
+    }
+
+    .latestcardsdown{
+        column-gap: 1rem;
+    }
+
+    .cardss{
+        width: 100%;
+    }
+
+    .third-podcast-container{
+        padding: 0rem 2rem 0rem 2rem;
+    
+    }
+
+    .imagepodcast{
+        width: 100%;
+        height: 30rem;
+    }
+
+    .getinthere{
+        width: 100%;
+    }
+    
+    
+    
+    .fourth-technologies-container {
+        padding: 4rem 1.5rem;
+    }
+
+    .techside h3{
+        font-size: 2.5rem;
+    }
+
+    .fifth-projectastra-container{
+        padding: 0rem 2rem 0rem 2rem;
+    
+    }
+
+    .imagepodcast2{
+        height: 30rem;
+    }
+
+    .toppodcasts h2{
+        font-size: 1.5rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .sixth-twocards-container{
+        width: 100%;
+        height: auto;
+        padding: 5rem 2rem 3rem 2rem;
+    }
+
+    .toppcardd{
+        width: 100%;
+        height: 150px;
+    
+    }
+
+
+    .toppcardd2{
+        width: 100%;
+        height: 250px;
+    
+    }
+
+
+    .downncardd{
+        width: 100%;
+        height: 60px;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        row-gap: 1rem;
+        padding: 1.5rem 0.2rem 1rem 1.5rem;
+        flex-grow: 1;
+    }
+
+    .seventh-threecontainers-container{
+        padding: 3rem 2rem 3rem 2rem;
+        flex-wrap: wrap;
+    }
+
+    .allthreecards{
+        
+        justify-content: start;
+        align-items: stretch;
+        column-gap: 3rem;
+        flex-wrap: wrap;
+        row-gap: 2rem;
+    }
+
+    .cardssst{
+        width: 45%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: stretch;
+        border: 0.1rem solid #dfe0e1;
+        border-radius: 0.5rem;
+        position: relative;
+        padding-bottom: 2rem;
+        cursor: pointer;
+    
+    }
+
+    .eight-responsibility-container{
+        padding: 2rem 2rem 2rem 2rem;
+    }
+
+    .responsibility h3{
+        font-size: 3rem;
+    }
+
+    .wewant p{
+        font-size: 1.5rem;
+    }
+
+    .tenth-explore-container{
+        width: 100%;
+        height: auto;
+        padding: 2rem 2rem 5rem 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        row-gap: 2rem;
+    }
+
+    .leftexplore{
+        width: 90%;
+        height: auto;
+    }
+
+    .rightexplore{
+        width: 100%;
+        height: auto;
+    }
+
+    .allsocials{
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding: 2rem 2rem;
+        row-gap: 1.5rem;
+    }
+
+    .allfooter{
+        padding: 0 2rem 0 2rem;
+    
+    }
+
+    .footerborder{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        row-gap: 2rem;
+        padding: 2rem 0 2rem 0;
+        border-top: 0.1rem solid #dfe0e1;
+        border-bottom: 0.1rem solid #dfe0e1;
+    }
+
+    input{
+        width: 32rem;
+    }
+
+    .lastcontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        row-gap: 1rem;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .fourth-technologies-container {
+        padding: 2rem 0.5rem;
+    }
+
+    .imagepodcast2 {
+        min-height: 20rem;
+    }
+
+    .toppodcasts h2 {
+        font-size: 2rem;
+    }
+
+    .toppodcasts p {
+        font-size: 0.8rem;
+    }
+
+    .moree {
+        padding: 0.6rem 1rem;
+        font-size: 0.8rem;
+    }
+}
+
+

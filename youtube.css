@@ -301,6 +301,10 @@ h3{
     height: auto;
 }
 
+.clicks all button{
+    background-color: #940e0e;
+}
+
 .clicks button{
     width: fit-content;
     height: auto;
@@ -309,7 +313,8 @@ h3{
     border: none;
     border-radius: 0.2rem;
     background-color: #d8d8d8;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 0.7rem;
     cursor: pointer;
 }
 
@@ -329,7 +334,7 @@ h3{
 }
 
 .new{
-    width: 100%t;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -348,15 +353,127 @@ h3{
     row-gap: 0.4rem;
 }
 
-.imageframe{
+/* .imageframe{
     width: 100%;
-    height: 250px;
+    height: 220px;
+    background-color: antiquewhite;
+    background-image: url("./images/asset\ 2.webp");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    cursor: pointer;
+} */
+
+.imageframe1{
+    width: 100%;
+    height: 220px;
+    background-color: antiquewhite;
+    background-image: url("./images/asset\ 2.webp");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.imageframe1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top left;
+    display: block;
+}
+
+.imageframe2{
+    width: 100%;
+    height: 220px;
     background-color: antiquewhite;
     background-image: url("./images/asset\ 4.webp");
     background-position: center;
     background-size: cover;
     position: relative;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.imageframe3{
+    width: 100%;
+    height: 220px;
+    background-color: antiquewhite;
+    background-image: url("./images/asset\ 5.webp");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.imageframe4{
+    width: 100%;
+    height: 220px;
+    background-color: antiquewhite;
+    background-image: url("./images/asset\ 6.webp");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.imageframe5{
+    width: 100%;
+    height: 220px;
+    background-color: antiquewhite;
+    background-image: url("./images/asset\ 7.webp");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.imageframe6{
+    width: 100%;
+    height: 220px;
+    background-color: antiquewhite;
+    background-image: url("./images/asset\ 8.webp");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.imageframe7{
+    width: 100%;
+    height: 220px;
+    background-color: antiquewhite;
+    background-image: url("./images/asset\ 9.webp");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.imageframe8{
+    width: 100%;
+    height: 220px;
+    background-color: antiquewhite;
+    background-image: url("./images/asset\ 10.webp");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 0.5rem;
     overflow: hidden;
     cursor: pointer;
 }
@@ -366,11 +483,11 @@ h3{
     position: absolute;
     bottom: 0.625rem;
     right: 1rem;
-    background-color: rgb(87, 86, 86);
+    background-color: rgb(52, 4, 4);
     color: #fff;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-weight: 600;
-    padding: 0.313rem 0.625rem;
+    padding: 0.213rem 0.225rem;
     border-radius: 0.313rem;
 }
 
@@ -387,10 +504,10 @@ h3{
     color: #8a8585;
 }
 .profilepicture{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
-    border: 3px solid #fff;
+    border: 2px solid #fff;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     overflow: hidden;
     flex-shrink: 0;
@@ -420,8 +537,8 @@ h3{
 .texting h3{
     width: fit-content;
     height: auto;
-    font-size: 1rem;
-    font-weight: 600;
+    font-size: 0.8rem;
+    font-weight: 500;
     cursor: pointer;
 
 }
@@ -436,7 +553,7 @@ h3{
 .channel-name{
     width: 100%;
     height: auto;
-    font-size: 0.875rem;
+    font-size: 0.675rem;
     font-weight: 400;
     color: #8a8585;
     cursor: pointer;
@@ -447,7 +564,7 @@ h3{
     height: auto;
     display: flex;
     align-items: center;
-    font-size: 0.875rem;
+    font-size: 0.675rem;
     font-weight: 400;
     color: #8a8585;
     cursor: pointer;
